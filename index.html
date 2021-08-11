@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <!-- navigation bar -->
+    <nav class="navigation navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand brand" href="#"><img src="https://cdn.shopify.com/s/files/1/0412/5761/files/made-in-ply-logo-white_60x.png?v=1602762999" alt="logo" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navs me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Catalogue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Laminates</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="#">Examples</a>
+               </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav logos">
+                <li  class="nav-item">
+                    <a href="#"><i class="far fa-user"></i></a>
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-shopping-bag"></a></i>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- home -->
+      <div class="home">
+        <h1>Custom Plywood Desktop Configurator</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 column-1">
+              <div class="image-column " >
+              <ul style="list-style: none;" class="carousel-img">
+                <li id="car1" class="active carousel-img-1"><img src="https://m.media-amazon.com/images/I/7138e-x0QeL._SX679_.jpg" alt="product-image-1" ></li>
+                <li id="car2" class=" carousel-img-2"><img src="https://m.media-amazon.com/images/I/71DSo1te5sL._SX425_.jpg" alt="product-image-2" ></li>
+                <li id="car3" class=" carousel-img-2"><img src="https://m.media-amazon.com/images/I/71lHkw7BVAL._SX425_.jpg" alt="product-image-3"></li>
+              </ul>
+              </div>
+              <div class="full-image">
+                <img id="fullimage" src="https://m.media-amazon.com/images/I/7138e-x0QeL._SX679_.jpg" alt="product-image-1">
+              </div>
+              <h6>Powered by Parametric 3D </h6>
+              </div>
+            <div class="col-lg-6 price-column ">
+              <div class="collapses">
+              <p data-bs-toggle="collapse" href="#collapseExample1">
+                <a  class="btn "  data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                  1 Material
+                </a>
+                <i  data-bs-toggle="collapse" href="#collapseExample1" class="fas fa-sort-down"></i>
+              </p>
+              <div class="collapse material-collapse" id="collapseExample1">
+                <div class="card card-body">
+                  <label for="favcolor">Select your favorite color:</label>
+                  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                </div>
+              </div> 
+
+              <p    data-bs-toggle="collapse" href="#collapseExample2">
+                <a class="btn "   data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                  2 Style
+                </a>
+                <i   data-bs-toggle="collapse" href="#collapseExample2" class="fas fa-sort-down"></i>
+              </p>
+              <div class="collapse style-collapse" id="collapseExample2">
+                <div class="card card-body">
+                  <form action="/action_page.php">
+                    <label for="quantity">Quantity (between 18 and 24):</label>
+                    <input type="number" id="quantity" name="quantity" step="2" min="18" max="24">
+                    <input type="submit">
+                  </form>
+                </div>
+              </div>
+              
+              <p    data-bs-toggle="collapse" href="#collapseExample3">
+                <a class="btn "   data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                  3 Size
+                </a>
+                <i  class="fas fa-sort-down"  data-bs-toggle="collapse" href="#collapseExample3"></i>
+              </p>
+              <div class="collapse size-collapse" id="collapseExample3">
+                <div class="card card-body">
+                  <div class="slidecontainer">
+                    <input type="number" id="squantity" name="quantity" step="6" min="1200" max="3000">
+                    <input type="range" min="1200" max="3000" value="1200" class="slider" id="myRange">
+                    <p>Value: <span id="demo"></span></p>
+                  </div>
+                </div>
+              </div> 
+
+              <p    data-bs-toggle="collapse" href="#collapseExample4">
+                <a class="btn "   data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                  4 Corners
+                </a>
+                <i  class="fas fa-sort-down"  data-bs-toggle="collapse" href="#collapseExample4"></i>
+              </p>
+              <div class="collapse corner-collapse" id="collapseExample4">
+                <div class="card card-body">
+              
+                </div>
+              </div> 
+
+              <p    data-bs-toggle="collapse" href="#collapseExample5">
+                <a class="btn " data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+                  5 Add Cable Holes
+                </a>
+                <i  class="fas fa-sort-down" data-bs-toggle="collapse"  href="#collapseExample5"></i>
+              </p>
+              <div class="collapse ach-collapse" id="collapseExample5">
+                <div class="card card-body">
+                  <label for="customRange2" class="form-label">Example range</label>
+                  <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                </div>
+              </div> 
+
+              <p    data-bs-toggle="collapse" href="#collapseExample6">
+                <a class="btn "  data-bs-toggle="collapse"  href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+                  6 Add Cable Trays
+                </a>
+                <i  data-bs-toggle="collapse"  href="#collapseExample6" class="fas fa-sort-down"></i>
+              </p>
+              <div class="collapse act-collapse" id="collapseExample6">
+                <div class="card card-body">
+                  <form action="/action_page.php">
+                    <label for="quantity">Quantity (between 18 and 24):</label>
+                    <input type="number" id="quantity" name="quantity" step="2" min="18" max="24">
+                    <input type="submit">
+                  </form>
+                </div>
+                </div>
+
+                <p    data-bs-toggle="collapse" href="#collapseExample7">
+                  <a  class="btn "  data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+                    7 Notes
+                  </a>
+                  <i  class="fas fa-sort-down"  data-bs-toggle="collapse" href="#collapseExample7"></i>
+                </p>
+                <div class="collapse notes-collapse" id="collapseExample7">
+                  <div class="card card-body">
+                    <textarea name="message" rows="5" cols="10">
+                      </textarea>
+                  </div>
+                  </div>
+                  <div class="price">
+                    <h2 class="pricetext">Price</h2>
+                    <h2 class="pricenumber">£644.24+VAT</h2>
+                  </div> 
+                  <h6>Please allow time for your product config to be generated.
+                  </h6>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-primary cart">Add to cart</button>
+                  </div>
+                  <div class="socials">
+                    <ul style="list-style: none;">
+                    <li><i class="fab fa-facebook-f"></i> Share</li>
+                    <li><i class="fab fa-twitter"></i> Tweet</li>
+                    <li><i class="fab fa-pinterest-p"></i> Pin it</li>
+                  </ul>
+                  </div>
+                  
+              </div>
+             
+              </div>
+          </div>
+         </div>
+        </div>
+        </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>

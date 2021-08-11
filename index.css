@@ -1,0 +1,129 @@
+.navbar{
+    background-color: #343434;
+    padding:28px 20px 10px;
+}
+.nav-link{
+    color: #BFBFBF;
+}
+.nav-link:hover{
+    color:#ffffff;
+}
+.nav-item i{
+    color: #BFBFBF;
+    padding-left: 30px;   
+}
+.brand{
+    margin-top: -20px;
+}
+.navs{
+    margin-left: auto;
+    display: flex;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 300;
+}
+.logos{
+    margin-top: -10px;
+    text-align: center;
+}
+.navbar-toggler-icon{
+    color:#ffffff;
+}
+.home h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+.column-1 h6{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+.full-image{
+    position: absolute;
+    top: 170px;
+    left: 150px;
+}
+.full-image img{
+    width:520px;
+    height: 420px;
+    object-fit: contain;
+}
+.image-column{
+    width:20%;
+}
+.carousel-img li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.carousel-img-1 img,.carousel-img-2 img,.carousel-img-3 img{
+    width:90px;
+    height: 90px;
+    object-fit: cover;
+}
+.carousel-img{
+    margin-left: -120px;
+    margin-right: 100px;
+}
+.collapses{
+    padding-left: 80px;
+    margin-right: -80px;
+    cursor: pointer;
+}
+.collapses a{
+    font-size: 18px;
+    font-weight: 600;
+    color:#BFBFBF;
+}
+.collapses p{
+    border-top: 1px solid #BFBFBF;
+}
+.collapses i{
+    color:#BFBFBF;
+    justify-content: flex-end;
+    display: flex;
+    margin-top: -30px;
+}
+.price{
+    display:inline-flex;
+    padding-top: 30px;
+}
+.pricenumber{
+   margin-left: 280px;
+}
+h6{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cart {
+    background-color:#0171e3 ;
+    border-radius: 28px;
+    font-family: Arial;
+    /* color: #ffffff; */
+    font-size: 16px;
+    padding: 12px 90px 12px 90px;
+    text-decoration: none;
+    border:none;
+  }
+  .d-grid{
+      padding-bottom: 30px;
+  }
+  .socials li{
+    display: inline-flex;
+    padding-right: 30px;
+    font-size: 20px;
+  
+  }
+  .socials i{
+    color:#000;
+      padding-top: 35px;
+      padding-right: 10px;
+  }
+.active{
+    border: 1px solid black;
+}
